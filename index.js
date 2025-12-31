@@ -1,9 +1,5 @@
 // 1. myName という名前の箱（定数）を作り、"キヨヒコ" という文字を入れます
-<<<<<<< HEAD
 const myName = "キヨヒコ";
-=======
-const myName = "キヨヒコひこ";
->>>>>>> 2703846 (day2 setup complete)
 
 // 2. generateGreeting という「挨拶を作る手順（関数）」を定義します
 // name というのは、後で外から受け取る「名前の入れ物」です
