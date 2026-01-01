@@ -23,7 +23,8 @@ const message = generateGreeting(myName);
 
 // 9. message という箱の中身を、コンソール（黒い画面）に表示します
 console.log(message);
-
+// 10. 作ったメッセージを、HTMLの「greeting」という場所に出力します
+document.getElementById("greeting").innerText = message;
 /* ============================================================
 【全体像のまとめ】
 1. 材料（変数）：myName
